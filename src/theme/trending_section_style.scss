@@ -1,0 +1,15 @@
+.sliderCarousel {
+    position: relative;
+    margin-bottom: 70px;
+    & > .contentWrapper {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .sliderTitle {
+        font-size: 24px;
+        color: white;
+        font-weight: normal;
+    }
+}
